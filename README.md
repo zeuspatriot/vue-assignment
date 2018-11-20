@@ -42,7 +42,7 @@ The whole front end application should be build with [Vue.js](https://vuejs.org/
 As you can see in this repository there are no webpack configuration  and frontend server. You're free to create your own configuration, maybe you want different config for production and development.
 
 ### Get Creative!
-You can also extend the functionality for both front end and back end of the application. For example, making a more informative front end or incident reporting on that alert the user when the vehicle went to fast on the road (this can be done both in the front end and back end, double points for back end implementation ;) )
+You can also extend the functionality for both front end and back end of the application. For example, making a more informative front end or incident for vehicle that went to fast on the road (this can be done both in the front end and back end, double points for back end implementation ;) )
 
 ### The data
 On websocket stream the data should look like this:
