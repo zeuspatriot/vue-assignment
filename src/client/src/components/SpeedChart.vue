@@ -1,7 +1,7 @@
 <template>
   <div>
     <LineChart :data="properData" :options="options" />
-    <div id="buttonGroup">
+    <div class="buttonGroup">
       <button type="button" @click="changeToHours">hour</button>
       <button type="button" @click="changeToMinutes">minutes</button>
       <button type="button" @click="changeToSeconds">seconds</button>
@@ -43,7 +43,7 @@ export default {
           y: value.speed,
         });
       }
-      if (historyLength >= 20) {
+      if (historyLength > 20) {
         this.dataHistory.shift();
       }
     },
@@ -102,3 +102,16 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.buttonGroup button:first-child {
+  border-radius: 4px 0 0 4px;
+}
+.buttonGroup button:last-child {
+  border-radius: 0 4px 4px 0;
+}
+.buttonGroup button {
+  border: 1px solid cadetblue;
+  padding: 8px;
+}
+</style>

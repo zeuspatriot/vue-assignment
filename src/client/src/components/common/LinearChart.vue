@@ -5,7 +5,6 @@
 <script>
 import Chart from 'chart.js';
 import merge from 'lodash/merge';
-// import moment from 'moment';
 
 export default {
   props: {

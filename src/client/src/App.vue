@@ -1,18 +1,17 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
     <Dashboard />
   </div>
 </template>
 
 <script>
-import Dashboard from "./components/Dashboard";
+import Dashboard from './components/Dashboard';
 
 export default {
-  name: "App",
+  name: 'App',
   components: {
-    Dashboard
-  }
+    Dashboard,
+  },
 };
 </script>
 
@@ -24,5 +23,6 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  height: 100%;
 }
 </style>
